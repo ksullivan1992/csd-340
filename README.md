@@ -1,2 +1,4 @@
-# csd-340
-Repo for CSD-340, HTML and CSS
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Kyle Sullivan
+* Prof. John Woods
