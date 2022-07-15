@@ -1,0 +1,87 @@
+h1 {
+    font-family: Varela Round;
+    font-weight: 800;
+    text-align: center;
+    font-size: 72px;
+    color: white;
+}
+h2, h3 {
+    font-family: Varela Round;
+    font-weight: 400;
+}
+p {
+    font-family: Sarabun;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+p.under_picture_text {
+    text-align: center;
+    padding-top: 2px;
+    font-weight: 400;
+}
+head {
+    background-color: #9F02F2;
+}
+body{
+    background-color: #F5F5F5;
+}
+div.top_color_box {
+    background-color: #9F02F2;
+    width: 100%;
+    padding: 10px;
+}
+.p_box {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 20px;
+}
+.p_box_hobbies {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.img_row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img_column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+img {
+    border-radius: 8px;
+}
+img.landing_page_img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    height: 800px;
+}
+img.about_page_img {
+    margin-top: 20px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+a {
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    padding: 14px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+    width: 20%;
+    position: relative;
+    left: 20%;
+}
